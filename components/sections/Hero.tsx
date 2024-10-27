@@ -26,7 +26,7 @@ export const Hero: FC = () => {
           </div>
           <div>
             <h2 className="text-base-content">Hello there,</h2>
-            <h1 className="mb-4 text-base-content">I'm&nbsp;<b className="text-primary">Vincent Fung</b></h1>
+            <h1 className="mb-4 text-base-content">I&apos;m&nbsp;<b className="text-primary">Vincent Fung</b></h1>
 
             <h3 className="text-neutral-content">{data.hero.tagline}</h3>
             {utils.generateParagraphs(data.hero.bio)}
