@@ -1,0 +1,10 @@
+{
+    "build": {
+      "env": {
+        "NPM_VERSION": "npm"
+      }
+    },
+    "installCommand": "npm install",
+    "buildCommand": "npm run build"
+  }
+  
