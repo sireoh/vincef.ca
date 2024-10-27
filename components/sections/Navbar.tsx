@@ -1,7 +1,7 @@
 "use client"
 
 import { FC, useEffect, useState } from "react"
-const proxy = process.env.NEXT_PUBLIC_PROXY || "http://localhost:3000/";
+const proxy = "http://vincef.xyz/";
 
 export const Navbar: FC = () => {
   const [theme, setTheme] = useState<string>()
