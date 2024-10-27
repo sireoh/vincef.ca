@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { GeistSans } from "geist/font/sans"
 
 export const metadata: Metadata = {
-  title: "Vincent Fung's Website",
+  title: "Vincent Fung | CST Student",
   description: "Vincent's personal website and portfolio.",
   keywords: [
     "software engineer", "machine learning", "sireoh", "computer science",
