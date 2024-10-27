@@ -9,6 +9,7 @@ type Projects = {
     title: string;
     tagline: string;
     image: string;
+    image_sm: string;
     link: string;
     tags: [ string ];
     date: string

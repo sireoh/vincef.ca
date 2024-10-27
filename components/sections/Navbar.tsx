@@ -47,7 +47,7 @@ export const Navbar: FC = () => {
         </label>
           
         <li className="hidden sm:block"><a href={proxy} className="rounded-full hover:bg-transparent hover:text-primary">Home</a></li>
-        <li className="hidden sm:block"><a href={"#projects"} className="rounded-full hover:bg-transparent hover:text-primary">Projects</a></li>
+        <li className="hidden sm:block"><a href="#projects" className="rounded-full hover:bg-transparent hover:text-primary">Projects</a></li>
         <li className="hidden sm:block"><a href="https://github.com/sireoh" className="rounded-full hover:bg-transparent hover:text-primary">GitHub</a></li>
 
         {/* dark mode button - stays for all screen sizes */}
@@ -72,9 +72,9 @@ export const Navbar: FC = () => {
         <label htmlFor="nav-drawer" aria-label="close sidebar" className="drawer-overlay"></label> 
         <ul className="menu min-h-full w-80 bg-base-200 p-4 pt-8 text-2xl">
           {/* Sidebar content here */}
-          <li><a href="https://www.kevinpek.com">About</a></li>
-          {/* <li><a href="https://www.kevinpek.com/gallery">Gallery</a></li> */}
-          <li><a href="https://blog.kevinpek.com">Blog</a></li>
+          <li><a href={proxy}>Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="https://github.com/sireoh">GitHub</a></li>
         </ul>
       </div>
     </div>

@@ -49,8 +49,6 @@ function generateSocials(arr: { [key: string]: string; }[]) {
         const key = Object.keys(object)[0] as string;
         const value = object[key];
 
-        console.log(key, value);
-
         elements.push(
             <a key={index} href={"https://" + getPlatformName(key) + "." + getTLD(key) + value} target="_blank" rel="noopener noreferrer">
                 {svgs[key] || null}
@@ -109,7 +107,7 @@ function generateEducation(arr: { [key: string]: string; }[]) {
 
 function generateProjects(arr: Projects[]) {
     const elements : JSX.Element[] = [];
-    const width : number = 1500;
+    const width : number = 1280;
     const height : number = width;
 
     arr.forEach((item, index) => {
@@ -124,7 +122,7 @@ function generateProjects(arr: Projects[]) {
                 <a target="_blank" href={item.link} rel="noreferrer">
                     <Project title={item.title} subheading={item.tagline} tags={item.tags}>
                     <p>{item.description}</p>
-                    <Image src={item.image} alt={item.title.toLowerCase().trim()} width={width} height={height}/>
+                    <Image src={item.image_sm} alt={item.title.toLowerCase().trim()} width={width} height={height}/>
                     </Project>
                 </a>
                 </div>

@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['png.pngtree.com'], // Add the domain here
+      domains: [
+        'png.pngtree.com',
+        'res.cloudinary.com'
+    ],
     },
   }
   

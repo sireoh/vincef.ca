@@ -74,7 +74,8 @@
     {
       "title": "BARTER",
       "tagline": "Trading & Advertisement Platform",
-      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "image": "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/q6c1trinoa7l74qvnrqr.png",
+      "image_sm" : "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/vgqt3qmfaisser8s2ijx.png",
       "link": "https://github.com/sireoh/BARTER",
       "tags": [
         "JavaScript",
@@ -89,7 +90,8 @@
     {
       "title": "Mindful Minute",
       "tagline": "Mood Tracker",
-      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "image": "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/yupyx2wy8jspwqzl7yvi.png",
+      "image_sm" : "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/p7omgqahuu1dj9icup9w.png",
       "link": "https://github.com/sireoh/MindfulMinute",
       "tags": [
         "JavaScript",
@@ -102,7 +104,8 @@
     {
       "title": "BeanTrack",
       "tagline": "TV & Movie Tracker",
-      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "image": "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/lifxjiartf4mens5aq9t.png",
+      "image_sm" : "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/vyfu80zld8x1nkysung5.png",
       "link": "https://github.com/sireoh/BeanTrack",
       "tags": [
         "React",
@@ -113,22 +116,25 @@
         "Tailscale"
       ],
       "date" : "August 2024",
-      "description": "In a team of five, developed a trading app that does not use a currency. Hosted images with Cloudinary, and databases on MongoDB"
+      "description": "Personal solo project developed over the summer, to aid in logging tv shows & movies. Self-hosted on personal server running Termux, through Cloudflare tunnels and Tailscale VPN. Uses TVMaze API for tv shows, and oMDB API for movies."
     },
     {
-      "title": "BARTER",
-      "tagline": "Trading & Advertisement Platform",
-      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
-      "link": "https://github.com/sireoh/BARTER",
+      "title": "slofbot",
+      "tagline": "Discord & Twitch Bot",
+      "image": "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/boacbmfgkx5j9ffupeen.png",
+      "image_sm" : "https://res.cloudinary.com/dodz2eoby/image/upload/v1730030380/vincef.ca/ilm1pebb6xwr37vrlpbb.png",
+      "link": "https://github.com/sireoh/slofbot",
       "tags": [
-        "JavaScript",
-        "EJS",
+        "Typescript",
         "MongoDB",
-        "Render",
-        "Bootstrap"
+        "Express",
+        "Twitch EventSub",
+        "Discord API",
+        "Termux",
+        "Cloudflare"
       ],
-      "date" : "May 2024",
-      "description": "In a team of five, developed a trading app that does not use a currency. Hosted images with Cloudinary, and databases on MongoDB"
+      "date" : "October 2019",
+      "description": "Self-hosted Node.js app"
     }
   ]
 }
