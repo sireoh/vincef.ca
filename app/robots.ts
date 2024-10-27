@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://kevinpek.com/sitemap.xml",
+    sitemap: "https://vincef.xyz/sitemap.xml",
   }
 }
