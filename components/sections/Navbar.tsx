@@ -47,7 +47,7 @@ export const Navbar: FC = () => {
           
         <li className="hidden sm:block"><a href={proxy} className="rounded-full hover:bg-transparent hover:text-primary">Home</a></li>
         <li className="hidden sm:block"><a href="#projects" className="rounded-full hover:bg-transparent hover:text-primary">Projects</a></li>
-        <li className="hidden sm:block"><a href="https://github.com/sireoh" className="rounded-full hover:bg-transparent hover:text-primary">GitHub</a></li>
+        <li className="hidden sm:block"><a href="https://github.com/sireoh"  target="_blank" className="rounded-full hover:bg-transparent hover:text-primary">GitHub</a></li>
 
         {/* dark mode button - stays for all screen sizes */}
         <label className="btn swap border-none bg-transparent hover:text-primary sm:rounded-full sm:bg-neutral">

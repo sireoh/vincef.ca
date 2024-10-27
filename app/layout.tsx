@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   ],
   manifest: "manifest.json",
   openGraph: {
-    images: "/favicon-32x32.png" // Ensure this image path is correct
+    images: "/favicon.png" // Ensure this image path is correct
   },
   metadataBase: new URL("https://vincef.xyz"),
   icons: {
-    icon: "/favicon.ico", // Check the favicon path
-    apple: "/favicon-32x32.png" // Check the Apple icon path
+    icon: "/favicon.png", // Check the favicon path
+    apple: "/favicon.png" // Check the Apple icon path
   }
 }
 
