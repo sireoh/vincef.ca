@@ -32,7 +32,7 @@ export const Hero: FC = () => {
             {utils.generateParagraphs(data.hero.bio)}
           </div>
           <div>
-            <a target='_blank' href='files/resume.pdf' className="btn btn-outline btn-primary rounded-none">Resume</a>
+            <a target="_blank" href="files/resume.pdf" className="btn btn-outline btn-primary rounded-none">Resume</a>
             <footer className="footer mt-5">
               <nav>
                 <div className="grid grid-flow-col gap-4 text-base-content">

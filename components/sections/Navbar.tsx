@@ -1,9 +1,7 @@
 "use client"
 
 import { FC, useEffect, useState } from "react"
-require("dotenv").config()
-
-const proxy = process.env.PROXY || "http://localhost:3000/";
+const proxy = process.env.NEXT_PUBLIC_PROXY || "http://localhost:3000/";
 
 export const Navbar: FC = () => {
   const [theme, setTheme] = useState<string>()
