@@ -1,0 +1,134 @@
+{
+  "hero" : {
+    "tagline" : "I am a Computer Systems Technology Student at BCIT, as well as a freelance 2D Animation/Illustration artist.",
+    "bio" : "I’m passionate about creating and constantly driven to learn new skills. Designing my own tools allows me complete control to shape them exactly to my needs.\nThe possibilities of what we can create are endless, limited only by our creativity and knowledge.",
+    "aboutme" : "I'm Vincent, and I started coding for fun in high school after taking a programming course. While pursuing a Bachelor's in 2D Animation at Emily Carr University of Art and Design, I explored my passion for programming by creating my own apps as a side hobby. This included developing Discord bots, web apps for Twitch streamers, and TV tracking applications.\nCurrently, I'm studying at BCIT in the Computer Systems Technology program, working towards my diploma, which I will complete in December 2025."
+  },
+  "socials" : [
+    {"github": "sireoh"},
+    {"linkedin" : "in/vinceefung"},
+    {"youtube" : "@sireoh"},
+    {"instagram" : "sireohseo"},
+    {"bsky.app" : "profile/kiseo.bsky.social"},
+    {"twitch.tv" : "sireoh"}
+  ],
+  "skills" : [
+    {
+      "title" : "Frameworks",
+      "skills" : [
+        "React",
+        "NodeJS",
+        "Next.js",
+        "Express",
+        "HTML/CSS",
+        "EJS",
+        "TailwindCSS"
+      ],
+      "description" : "Vincent is skilled in creating dynamic web applications with React and Next.js on the frontend, and NodeJS and Express for backend functionality. He builds responsive interfaces with HTML/CSS and TailwindCSS, and uses EJS for templating. In COMP2800, he developed BARTER, an online trading platform, highlighting his ability to integrate full-stack technologies effectively."
+    },
+    {
+      "title" : "Tools",
+      "skills" : [
+        "Docker",
+        "Git",
+        "Bash",
+        "Cloudflare",
+        "Termux",
+        "MongoDB",
+        "Cloudinary"
+      ],
+      "description" : "Vincent is adept with essential tools for modern development workflows. He uses Docker for containerization, Git for version control, and Bash for scripting and automation. He leverages Cloudflare for security and performance, Termux for mobile terminal tasks, and MongoDB for database management. Additionally, he integrates Cloudinary for media storage and optimization in his applications."
+    },
+    {
+      "title" : "Technical Languages",
+      "skills" : [
+        "Typescript",
+        "Javascript",
+        "Python",
+        "C",
+        "C++",
+        "C#",
+        "Java",
+        "Lua"
+      ],
+      "description" : "Vincent is proficient in TypeScript and JavaScript for web development, with Python experience from creating a Discord bot, Slofbot. He learned Java in COMP2522 and C in COMP2510Z, and has experience with C# for game development using MonoGame. He’s also exploring C++ and Lua to broaden his programming skills."
+    }
+  ],
+  "education" : [
+    {
+      "title" : "Computer Systems Technology (CST), Diploma",
+      "location" : "Burnaby, BC",
+      "school" : "British Columbia Institute of Technology",
+      "gradYear" : "Graduating Dec. 2025",
+      "description" : "Worked with the BCIT Student Association as a Student Representative. Learned: Databases, Computer Architecture, Web Development."
+    },
+    {
+      "title" : "2D + Experimental Animation, Bachelors",
+      "location" : "Vancouver, BC",
+      "school" : "Emily Carr University of Art and Design",
+      "gradYear" : "Class of 2022",
+      "description" : "Directed “Mushman Tuk”, a fourth-year thesis film about a solo adventurer battling starvation. Helped assign tasks to colorists, music designers and layout artists. Used ToonBoom, and Adobe Suite."
+    }
+  ],
+  "projects" : [
+    {
+      "title": "BARTER",
+      "tagline": "Trading & Advertisement Platform",
+      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "link": "https://github.com/sireoh/BARTER",
+      "tags": [
+        "JavaScript",
+        "EJS",
+        "MongoDB",
+        "Render",
+        "Bootstrap"
+      ],
+      "date" : "May 2024",
+      "description": "In a team of five, developed a trading app that does not use a currency. Hosted images with Cloudinary, and databases on MongoDB"
+    },
+    {
+      "title": "Mindful Minute",
+      "tagline": "Mood Tracker",
+      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "link": "https://github.com/sireoh/MindfulMinute",
+      "tags": [
+        "JavaScript",
+        "Firebase",
+        "Figma"
+      ],
+      "date" : "April 2024",
+      "description": "In a team of three, built a journal and mood tracking app with annual, monthly and weekly stats. Planned in Figma and used version control in Github."
+    },
+    {
+      "title": "BeanTrack",
+      "tagline": "TV & Movie Tracker",
+      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "link": "https://github.com/sireoh/BeanTrack",
+      "tags": [
+        "React",
+        "Tailwind CSS",
+        "Next.js",
+        "MongoDB",
+        "Cloudflare",
+        "Tailscale"
+      ],
+      "date" : "August 2024",
+      "description": "In a team of five, developed a trading app that does not use a currency. Hosted images with Cloudinary, and databases on MongoDB"
+    },
+    {
+      "title": "BARTER",
+      "tagline": "Trading & Advertisement Platform",
+      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-cute-cuteness-wallpaper-image_2935345.jpg",
+      "link": "https://github.com/sireoh/BARTER",
+      "tags": [
+        "JavaScript",
+        "EJS",
+        "MongoDB",
+        "Render",
+        "Bootstrap"
+      ],
+      "date" : "May 2024",
+      "description": "In a team of five, developed a trading app that does not use a currency. Hosted images with Cloudinary, and databases on MongoDB"
+    }
+  ]
+}
